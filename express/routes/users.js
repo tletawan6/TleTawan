@@ -5,7 +5,7 @@ var cors = require('cors')
 router.use(cors())
 
 const mongoose = require('mongoose')
-mongoose.connect('mongodb+srv://tle:tle@tletawan-zxvcy.gcp.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true })
+mongoose.connect('mongodb+srv://tle:tle@tletawan-zxvcy.gcp.mongodb.net/test')
 
 var mySchema = mongoose.Schema({
   sumx:String,
